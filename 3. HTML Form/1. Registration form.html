@@ -1,0 +1,87 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>1. Registration form</title>
+    </head>
+    <body>
+        <form method="get" name="RegForm" action="#">
+         <tbody>
+           <table border="1">
+               <tr>
+                   <td align="right" width="150" ><strong>Last Name</strong></td>
+                   <td align="left" width="300"><input type="text" name="Last Name" placeholder="Nakov" size="35"></td>
+               </tr>
+               <tr>
+                   <td align="right"><strong>First Name</strong></td>
+                   <td align="left"><input type="text" name="First Name" placeholder="Svetlin" size="35"></td>
+               </tr>
+               <tr>
+                   <td align="right" valign="middle" height="60"><strong>Address</strong></td>
+                   <td><textarea rows="5" cols="35" placeholder="17 Hr. Botev str.
+floor 3, apt. 12"></textarea></td>
+               </tr>
+               <tr>
+                   <td align="right"><strong>City</strong></td>
+                   <td>
+                       <table border="1">
+                           <tr>
+                               <td><input type="text" name="City" placeholder="Kaspichan"></td>
+                               <td><strong>State</strong></td>
+                               <td><input type="text" name="State" size="6" placeholder="State"></td>
+                           </tr>
+                       </table>
+                   </td>
+               </tr>
+               <tr>
+                   <td align="right"><strong>Zip/Postal Code</strong></td>
+                   <td><input type="text" name="PostCode" size="6" placeholder="9352"></td>
+               </tr>
+               <tr>
+                   <td align="right"><strong>Country</strong></td>
+                   <td>
+                       <select name="Country">
+                           <option value="Bulgaria" selected="selected">Bulgaria</option>
+                           <option value="USA">USA</option>
+                           <option value="Canada">Canada</option>
+                           <option value="China">China</option>
+                       </select>
+                   </td>
+               </tr>
+               <tr>
+                   <td align="right"><strong>Phone (country code,<br/> area code, number)</strong></td>
+                   <td>(+<input type="text" name="countryCode" size="2" placeholder="359">)<input type="text" name="areaCode" size="1" placeholder="88">-<input type="text" name="phoneNumber" size="6" placeholder="888888"></td>
+               </tr>
+               <tr>
+                   <td align="right"><strong>E-mail</strong></td>
+                   <td><input type="email" name="email" placeholder="nakov@kaspichan.org" size="35"></td>
+               </tr>
+               <tr>
+                   <td align="right"><strong>Birth Date</strong></td>
+                   <td>Month<input type="text" name="month" size="1"> Day<input type="text" name="Day" size="1"> Year(4 digit)<input type="text" name="Year" size="2"></td>
+               </tr>
+               <tr>
+                   <td align="right"><strong>Gender</strong></td>
+                   <td>
+                       <select name="Country">
+                           <option value="Male" selected="selected">Male</option>
+                           <option value="Female">Female</option>
+                           <option value="Other">Other</option>
+                       </select>
+                   </td>
+               </tr>
+               <tr>
+                   <td align="right"><strong>Starting Date</strong></td>
+                   <td><input type="radio" name="2006"/>Spring 2006<input type="radio" name="2006">Summer 2006</td>
+               </tr>
+               <tr>
+                   <td><strong>Comments/Questions</strong></td>
+                   <td><textarea rows="5" cols="35" placeholder="Please send me more information about lodging"></textarea></td>
+               </tr>
+               <tr>
+                   <td align="center" colspan="2" style="background-color: lightblue"><input type="submit" name="Submit"><input type="reset" name="reset"></td>
+               </tr>
+           </table>
+         </tbody> 
+       </form>
+    </body>
+</html>
